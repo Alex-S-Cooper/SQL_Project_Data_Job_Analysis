@@ -20,7 +20,7 @@ INNER JOIN skills_job_dim sjd ON top_paying_jobs.job_id = sjd.job_id
 INNER JOIN skills_dim sd ON sjd.skill_id = sd.skill_id
 
 /* The tutor uses ChatGPT to then get a count of the skills. 
-   I though I would write an additional query to return the top 10 most common skills:
+   I thought I would write an additional query to return the top 10 most common skills:
 */
 
 WITH top_paying_jobs AS (

@@ -7,4 +7,4 @@ WHERE jpf.job_title_short = 'Data Analyst' AND
       jpf.salary_year_avg IS NOT NULL
 GROUP BY sd.skills
 ORDER BY average_salary DESC
-LIMIT 25
+LIMIT 15

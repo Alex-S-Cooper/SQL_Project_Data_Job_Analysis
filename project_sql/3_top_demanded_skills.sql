@@ -6,4 +6,4 @@ WHERE jpf.job_title_short = 'Data Analyst' AND
       jpf.job_work_from_home = TRUE
 GROUP BY sd.skills
 ORDER BY skill_demand DESC
-LIMIT 5
+LIMIT 10

@@ -26,3 +26,4 @@ SELECT skills_demand.skill_id
 FROM skills_demand
 INNER JOIN average_salary ON skills_demand.skill_id = average_salary.skill_id
 ORDER BY skill_demand DESC, average_salary DESC
+LIMIT 25
